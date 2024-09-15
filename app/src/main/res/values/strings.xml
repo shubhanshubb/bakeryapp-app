@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BakeryApp</string>
+    <string name="txtWelcome">Welcome!</string>
+    <string name="txtMemberLogin">Member Login</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="btnSignIn">Sign In!</string>
+    <string name="txtGuest">Continue as Guest</string>
+    <string name="txtNotAMember">Not a Member?</string>
+
+    <string name="txtCardholderName">Cardholder\'s Name:</string>
+    <string name="cc_number">Card Number#:</string>
+    <string name="expiry_date">Expiry Month:</string>
+    <string name="expiry_year">Expiry Year:</string>
+    <string name="btnSubmit">Submit Payment Info</string>
+    <string name="btnCancel">Cancel</string>
+
+    <string name="txtItemName">Product Name:</string>
+    <string name="txtItemDescription">Product Description:</string>
+    <string name="txtQuantity">Quantity:</string>
+    <string name="btnBasket">Add to Item Basket</string>
+
+    <string name="btnCreateAccount">Create Account</string>
+    <string name="hintPassword">Enter at least 8 characters</string>
+    <string name="imgBtnLogo">Home image button</string>
+
+    <string name="txtCategories">Categories</string>
+    <string name="add_payment_information">Add Payment Information</string>
+    <string name="welcome_to_mn_square_bakery">WELCOME TO MN SQUARE BAKERY</string>
+</resources>

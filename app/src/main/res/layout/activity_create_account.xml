@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imag"
+    tools:context="hicham.info3245.com.bakeryapp.CreateAccount">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:text="@string/btnCreateAccount"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Username"
+        android:id="@+id/tvName"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp"
+        android:textSize="22sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/txtName"
+        android:maxLength="10"
+        android:layout_below="@+id/tvName"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email Address"
+        android:id="@+id/tvtEmail"
+        android:layout_below="@+id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:layout_below="@+id/tvtEmail"
+        android:layout_alignParentStart="true"
+        android:maxLength="25"
+        android:textColor="#000000"
+        android:layout_alignEnd="@+id/txtName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="20dp"
+        android:text="Telephone"
+        android:id="@+id/tvPhoneInfo"
+        android:textSize="22sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:ems="10"
+        android:id="@+id/txtPhone"
+        android:layout_below="@+id/tvPhoneInfo"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtEmail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/tvPassword"
+        android:layout_below="@+id/txtPhone"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:ems="10"
+        android:maxLength="8"
+        android:id="@+id/txtCreatePass"
+        android:layout_below="@+id/tvPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtPhone" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat Password"
+        android:id="@+id/textView3"
+        android:textSize="22sp"
+        android:layout_below="@+id/txtCreatePass"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:ems="10"
+        android:maxLength="8"
+        android:id="@+id/txtConfirmPass"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtCreatePass" />
+
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="361dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#E60E2F" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCreateAccount"
+        android:textStyle="italic"
+        android:id="@+id/btnCreate"
+        android:background="@drawable/roundedbtn"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
